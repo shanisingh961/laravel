@@ -1,0 +1,23 @@
+{
+    "name": "bpocallaghan/notify",
+    "description": "Laravel 5 Flash Notifications with icons and animations and with a timeout",
+	"keywords": ["laravel", "flash", "notifications", "notify", "bootstrap"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ben-Piet O'Callaghan",
+            "email": "bpocallaghan@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0"
+    },
+	"autoload": {
+		"psr-4": {
+			"Bpocallaghan\\Notify\\": "src/"
+		},
+		"files": [
+			"src/helpers.php"
+		]
+	}
+}
